@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-st.set_page_config(page_title="AVP Fund Finder v2 (Debug Mode)", layout="wide")
+st.set_page_config(page_title="AVP Fund Finder v2", layout="centered")
 
 # ฟังก์ชันโหลดข้อมูลแบบลดความเสี่ยง
 @st.cache_data(show_spinner="กำลังโหลดข้อมูล...")
