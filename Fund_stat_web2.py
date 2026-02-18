@@ -41,7 +41,7 @@ if not df.empty:
     # หัวตาราง
     col_ratios = [2.2, 1.8, 0.7, 0.7, 0.7, 1.2, 1.0]
     h = st.columns(col_ratios)
-    headers = ["Fund name", "AVP Cate", "TER", "Front", "Back", "Update", "Fact Sheet)"]
+    headers = ["Fund name", "AVP Cate", "TER", "Front", "Back", "Update", "FFS"]
     for col, text in zip(h, headers):
         col.write(f"**{text}**")
     st.divider()
